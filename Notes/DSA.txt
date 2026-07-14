@@ -1,0 +1,300 @@
+If you're aiming for **Automation Testing**, it's worth learning **more DSA than the bare minimum**, but you still don't need the depth expected for an SDE at companies like Google or Amazon.
+
+A good target is to be able to solve **easy and medium-level DSA problems** confidently in Java. This will strengthen your coding skills and help in interviews.
+
+# DSA Roadmap for an Automation Tester
+
+## 1. Arrays (★★★★★)
+
+Master these topics:
+
+* Find largest and smallest element
+* Second largest element
+* Reverse an array
+* Rotate an array
+* Remove duplicates
+* Merge two arrays
+* Move zeros to the end
+* Find missing number
+* Find duplicate elements
+* Kadane's Algorithm (Maximum Subarray Sum)
+* Prefix Sum
+* Two Sum problem
+
+Practice: **20–25 problems**
+
+---
+
+## 2. Strings (★★★★★)
+
+Learn:
+
+* Reverse a string
+* Check palindrome
+* Count vowels/consonants
+* Remove duplicate characters
+* Anagrams
+* String compression
+* Character frequency
+* Longest common prefix
+* Substrings
+* StringBuilder
+* Regular Expressions (Regex)
+
+Practice: **20 problems**
+
+---
+
+## 3. HashMap & HashSet (★★★★★)
+
+Very important for automation.
+
+Learn:
+
+* Frequency counting
+* Remove duplicates
+* Two Sum using HashMap
+* Group anagrams
+* First unique character
+* Character count
+* Word count
+
+Practice: **15–20 problems**
+
+---
+
+## 4. Recursion (★★★★☆)
+
+Learn:
+
+* Factorial
+* Fibonacci
+* Sum of digits
+* Reverse a number
+* Power function
+* Generate subsets
+* Backtracking basics
+
+Practice: **10 problems**
+
+---
+
+## 5. Sorting (★★★★★)
+
+Understand:
+
+* Bubble Sort
+* Selection Sort
+* Insertion Sort
+* Merge Sort
+* Quick Sort
+* Collections.sort()
+* Comparator
+* Comparable
+
+Know the time complexities of each algorithm.
+
+Practice: **15 problems**
+
+---
+
+## 6. Searching (★★★★★)
+
+Learn:
+
+* Linear Search
+* Binary Search
+* Binary Search on Arrays
+* Binary Search in Rotated Arrays
+* First/Last Occurrence
+
+Practice: **15 problems**
+
+---
+
+## 7. Linked List (★★★★☆)
+
+Learn:
+
+* Singly Linked List
+* Doubly Linked List
+* Reverse a Linked List
+* Detect a Loop
+* Find Middle Node
+* Merge Two Lists
+
+Practice: **15 problems**
+
+---
+
+## 8. Stack (★★★★☆)
+
+Learn:
+
+* Stack using Array
+* Stack using Linked List
+* Balanced Parentheses
+* Reverse a String
+* Next Greater Element
+
+Practice: **10 problems**
+
+---
+
+## 9. Queue (★★★★☆)
+
+Learn:
+
+* Queue implementation
+* Circular Queue
+* Priority Queue
+* Deque
+
+Practice: **10 problems**
+
+---
+
+## 10. Trees (★★★☆☆)
+
+Learn:
+
+* Binary Tree
+* Binary Search Tree (BST)
+* Tree Traversals (Preorder, Inorder, Postorder)
+* Level Order Traversal
+* Height of Tree
+
+Practice: **15 problems**
+
+---
+
+## 11. Heap / Priority Queue (★★★☆☆)
+
+Learn:
+
+* Max Heap
+* Min Heap
+* K Largest Elements
+* Merge K Sorted Arrays
+
+Practice: **10 problems**
+
+---
+
+## 12. Graphs (★★☆☆☆)
+
+Basic understanding is enough:
+
+* BFS
+* DFS
+* Adjacency List
+* Connected Components
+
+Practice: **8–10 problems**
+
+---
+
+## 13. Dynamic Programming (★★☆☆☆)
+
+Learn only the basics:
+
+* Fibonacci
+* Climbing Stairs
+* House Robber
+* Longest Increasing Subsequence (overview)
+
+Practice: **8–10 problems**
+
+---
+
+# Time Complexity (Must Know)
+
+Be comfortable with:
+
+* Big O notation
+* O(1)
+* O(log n)
+* O(n)
+* O(n log n)
+* O(n²)
+
+Also know the time complexity of common Java collection operations.
+
+---
+
+# Java Collections (Essential)
+
+Understand:
+
+* ArrayList
+* LinkedList
+* Vector
+* HashSet
+* LinkedHashSet
+* TreeSet
+* HashMap
+* LinkedHashMap
+* TreeMap
+* PriorityQueue
+
+Know:
+
+* Internal implementation
+* When to use each
+* Performance characteristics
+* Common interview questions
+
+---
+
+# DSA Topics Used in Automation
+
+You'll often apply these in real automation work:
+
+* Arrays and Lists for test data
+* HashMaps for API responses and JSON parsing
+* Sets for duplicate validation
+* Sorting for reports
+* Searching for UI elements or records
+* Queues for test execution
+* Stacks for browser navigation or expression validation
+* Strings for almost every automation script
+
+---
+
+# Practice Plan (About 160 Problems)
+
+| Topic           | Problems |
+| --------------- | -------: |
+| Arrays          |       25 |
+| Strings         |       20 |
+| HashMap/HashSet |       20 |
+| Sorting         |       15 |
+| Searching       |       15 |
+| Linked List     |       15 |
+| Stack           |       10 |
+| Queue           |       10 |
+| Trees           |       15 |
+| Heap            |       10 |
+| Graph           |       10 |
+| DP              |       10 |
+
+**Total:** ~175 problems
+
+---
+
+# Where to Practice
+
+* **LeetCode**: Start with Easy, then Medium.
+* **HackerRank**: Excellent for Java syntax and collections.
+* **CodingBat**: Great for beginners learning Java logic.
+* **GeeksforGeeks**: Good for topic-wise explanations and practice.
+
+### For your background
+
+Since you've shared that you have **4+ years of testing experience** and are transitioning toward **automation testing**, I'd prioritize your study time roughly like this:
+
+1. **Core Java + Collections** (40%)
+2. **DSA (Arrays, Strings, HashMaps, Searching, Sorting)** (30%)
+3. **Selenium, TestNG, REST Assured, Maven, Jenkins** (30%)
+
+This balance prepares you well for most automation testing interviews, where coding rounds typically focus on practical Java and foundational DSA rather than advanced competitive programming.

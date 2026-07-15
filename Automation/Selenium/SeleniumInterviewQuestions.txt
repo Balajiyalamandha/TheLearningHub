@@ -1,0 +1,10 @@
+What is the difference between driver.get() and driver.navigate().to()?
+What is the difference between close() and quit()?
+How do you maximize a browser in Selenium?
+How do you retrieve the current URL?
+What does getWindowHandle() return?
+What is getWindowHandles() used for?
+How do you change the browser window size?
+How do you retrieve the page title?
+What does getPageSource() return?
+Why should Thread.sleep() generally be avoided in automation tests?

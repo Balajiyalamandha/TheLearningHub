@@ -1,0 +1,40 @@
+Selenium
+│
+├── Level 1: Java Basics Required
+├── Level 2: Selenium Introduction
+├── Level 3: Locators
+├── Level 4: WebDriver Commands
+├── Level 5: WebElements
+├── Level 6: Waits
+├── Level 7: Dropdowns
+├── Level 8: Alerts
+├── Level 9: Frames
+├── Level 10: Windows & Tabs
+├── Level 11: Mouse Actions
+├── Level 12: Keyboard Actions
+├── Level 13: JavaScript Executor
+├── Level 14: File Upload/Download
+├── Level 15: Screenshots
+├── Level 16: Tables
+├── Level 17: Calendar
+├── Level 18: Broken Links
+├── Level 19: Excel Data
+├── Level 20: TestNG
+├── Level 21: Maven
+├── Level 22: POM Framework
+├── Level 23: Data Driven Framework
+├── Level 24: Hybrid Framework
+├── Level 25: Jenkins CI/CD
+
+
+
+
+or learning Selenium, use sites designed for automation:
+
+https://www.saucedemo.com
+https://the-internet.herokuapp.com
+https://opensource-demo.orangehrmlive.com
+https://demoqa.com
+https://practice.expandtesting.com
+
+These won't block Selenium during normal practice.

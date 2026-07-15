@@ -1,0 +1,595 @@
+Selenium
+│
+├── Level 1: Java Basics Required
+├── Level 2: Selenium Introduction
+├── Level 3: Locators
+├── Level 4: WebDriver Commands
+├── Level 5: WebElements
+├── Level 6: Waits
+├── Level 7: Dropdowns
+├── Level 8: Alerts
+├── Level 9: Frames
+├── Level 10: Windows & Tabs
+├── Level 11: Mouse Actions
+├── Level 12: Keyboard Actions
+├── Level 13: JavaScript Executor
+├── Level 14: File Upload/Download
+├── Level 15: Screenshots
+├── Level 16: Tables
+├── Level 17: Calendar
+├── Level 18: Broken Links
+├── Level 19: Excel Data
+├── Level 20: TestNG
+├── Level 21: Maven
+├── Level 22: POM Framework
+├── Level 23: Data Driven Framework
+├── Level 24: Hybrid Framework
+├── Level 25: Jenkins CI/CD
+
+
+
+
+or learning Selenium, use sites designed for automation:
+
+https://www.saucedemo.com
+https://the-internet.herokuapp.com
+https://opensource-demo.orangehrmlive.com
+https://demoqa.com
+https://practice.expandtesting.com
+
+These won't block Selenium during normal practice.
+
+
+
+####Browser commands####
+driver.get()
+driver.navigate().to()
+driver.navigate().back()
+driver.navigate().forward()
+driver.navigate().refresh()
+
+####Get Commands####
+driver.getTitle()
+driver.getCurrentUrl()
+driver.getPageSource()
+driver.getWindowHandle()
+driver.getWindowHandles()
+
+driver.manage().window().maximize();
+driver.manage().window().minimize();
+driver.manage().window().fullscreen();
+
+
+driver.manage().window().setSize(new Dimension(1000, 700));
+driver.quit();
+driver.close();
+Thread.sleep(3000);
+
+
+
+
+
+Level 2 – Locators
+
+Practice every locator
+
+id
+name
+className
+tagName
+linkText
+partialLinkText
+cssSelector
+xpath
+XPath
+
+Learn
+
+Absolute XPath
+Relative XPath
+contains()
+starts-with()
+text()
+normalize-space()
+following
+preceding
+parent
+child
+ancestor
+descendant
+following-sibling
+preceding-sibling
+
+Create at least 100 XPath exercises.
+
+Level 3 – WebElement Methods
+
+Practice
+
+click()
+
+sendKeys()
+
+clear()
+
+submit()
+
+getText()
+
+getAttribute()
+
+getCssValue()
+
+getTagName()
+
+isDisplayed()
+
+isEnabled()
+
+isSelected()
+
+getRect()
+
+getLocation()
+
+getSize()
+Level 4 – Waits
+
+Practice
+
+Implicit Wait
+
+Explicit Wait
+
+Fluent Wait
+
+ExpectedConditions
+
+Examples
+
+visibilityOfElementLocated
+
+elementToBeClickable
+
+presenceOfElementLocated
+
+alertIsPresent
+
+frameToBeAvailable
+
+titleContains
+
+urlContains
+Level 5 – Dropdown
+
+Practice
+
+Select
+
+selectByVisibleText()
+
+selectByValue()
+
+selectByIndex()
+
+getOptions()
+
+getAllSelectedOptions()
+
+deselectAll()
+Level 6 – Alerts
+
+Practice
+
+Simple Alert
+
+Confirmation Alert
+
+Prompt Alert
+
+accept()
+
+dismiss()
+
+sendKeys()
+
+getText()
+Level 7 – Frames
+
+Practice
+
+frame(index)
+
+frame(name)
+
+frame(WebElement)
+
+defaultContent()
+
+parentFrame()
+
+Nested Frames
+
+Level 8 – Multiple Windows
+
+Practice
+
+Parent Window
+
+Child Window
+
+Multiple Tabs
+
+Switch Window
+
+Close Child
+
+Return Parent
+
+Level 9 – Actions Class
+
+Practice
+
+Mouse Hover
+
+Right Click
+
+Double Click
+
+Drag Drop
+
+Click Hold
+
+Release
+
+Move By Offset
+
+Level 10 – Keyboard Events
+
+Practice
+
+CTRL+A
+
+CTRL+C
+
+CTRL+V
+
+SHIFT
+
+ENTER
+
+TAB
+
+ESC
+Level 11 – JavaScriptExecutor
+
+Practice
+
+Click using JavaScript
+
+Scroll Down
+
+Scroll Up
+
+Scroll Into View
+
+Highlight Element
+
+Generate Alert
+
+Zoom Page
+
+Refresh Browser
+
+Level 12 – Screenshot
+
+Practice
+
+Full Page
+
+WebElement Screenshot
+
+Failure Screenshot
+
+Timestamp Screenshot
+
+Level 13 – Upload & Download
+
+Practice
+
+Single Upload
+
+Multiple Upload
+
+AutoIT (legacy)
+
+Robot Class
+
+Download Verification
+
+Level 14 – Web Tables
+
+Practice
+
+Static Table
+
+Dynamic Table
+
+Pagination
+
+Checkbox Selection
+
+Search Row
+
+Read Entire Table
+
+Sum Column Values
+
+Level 15 – Calendar
+
+Practice
+
+Current Date
+
+Future Date
+
+Past Date
+
+Month Picker
+
+Year Picker
+
+Level 16 – Broken Links
+
+Practice
+
+Find all links
+
+HTTP Response Code
+
+Print Broken Links
+
+Level 17 – Cookies
+
+Practice
+
+getCookies()
+
+addCookie()
+
+deleteCookie()
+
+deleteAllCookies()
+Level 18 – File Handling
+
+Practice
+
+Read Files
+
+Write Files
+
+Properties File
+
+JSON
+
+CSV
+
+Level 19 – Synchronization
+
+Practice
+
+Dynamic Loading
+
+AJAX
+
+Loading Spinner
+
+Progress Bar
+
+Level 20 – TestNG
+
+Practice
+
+Annotations
+
+Priority
+
+DependsOn
+
+Groups
+
+DataProvider
+
+Parameters
+
+Assertions
+
+Listeners
+
+Retry Analyzer
+
+Parallel Testing
+
+Suite XML
+
+Level 21 – Maven
+
+Practice
+
+Dependencies
+
+Plugins
+
+Surefire
+
+Compiler Plugin
+
+Profiles
+
+Level 22 – Page Object Model
+
+Practice
+
+Without PageFactory
+
+With PageFactory
+
+Reusable Base Class
+
+Reusable Utilities
+
+Level 23 – Data Driven Framework
+
+Practice
+
+Excel
+
+Apache POI
+
+CSV
+
+JSON
+
+Properties
+
+Level 24 – Reporting
+
+Practice
+
+Extent Reports
+
+Screenshots
+
+Logging
+
+Failed Test Capture
+
+Level 25 – Selenium Grid
+
+Practice
+
+Hub
+
+Node
+
+RemoteWebDriver
+
+Cross Browser
+
+Parallel Execution
+
+Level 26 – CI/CD
+
+Practice
+
+Jenkins
+
+Git
+
+GitHub
+
+GitHub Actions
+
+Scheduled Build
+
+Parameterized Build
+
+HTML Report
+
+Email Report
+
+Level 27 – Live Project
+
+Build an automation framework for a real application with:
+
+Java
+Selenium
+TestNG
+Maven
+POM
+Utilities
+Apache POI
+Extent Reports
+Log4j2
+Jenkins
+Git
+GitHub Actions
+
+Implement test cases for:
+
+Login
+Logout
+Registration
+Search
+Add to Cart
+Remove from Cart
+Checkout
+Profile Update
+Forgot Password
+Pagination
+Sorting
+Filters
+Screenshots
+Reports
+Practice Websites
+
+Use these free sites to practice:
+
+https://opensource-demo.orangehrmlive.com/
+https://demo.opencart.com/
+https://practice.expandtesting.com/
+https://the-internet.herokuapp.com/
+https://www.saucedemo.com/
+https://automationexercise.com/
+https://www.globalsqa.com/demo-site/
+Interview Preparation
+
+After completing these topics, practice:
+
+300+ Core Java interview questions
+200+ Selenium interview questions
+100+ TestNG interview questions
+100+ Maven interview questions
+100+ SQL interview questions
+50+ Jenkins interview questions
+50+ Git interview questions
+100+ automation framework interview questions
+
+This progression takes you from writing your first Selenium script to building an interview-ready automation framework. Given your experience and your goal of moving into Selenium automation, it closely matches what many companies expect from a 4–5 year automation tester.
+
+
+
+This is just the beginning. Covering every Selenium topic with practical code will take well over 200 examples.
+
+I recommend organizing them like this:
+Part 1: 50 Core Selenium examples (Browser, Locators, WebElements, Waits, Frames, Alerts, Windows, Dropdowns)
+Part 2: 50 Advanced Selenium examples (Actions, JavaScriptExecutor, Screenshots, Tables, Calendars, Upload/Download, Cookies)
+Part 3: 50 TestNG + Maven + Framework examples
+Part 4: 50 Real-world automation scenarios and interview coding challenges
+Part 5: One complete automation framework (POM + TestNG + Maven + Extent Reports + Log4j2 + Excel + Jenkins + GitHub Actions)
+
+This would give you around 250 interview-oriented Selenium examples with complete explanations, making it a strong portfolio for interviews and GitHub.
+
+
+hese free websites are ideal for these 50 examples:
+
+Website	Best For
+https://the-internet.herokuapp.com	Alerts, Frames, Windows
+https://practice.expandtesting.com	Selenium basics
+https://opensource-demo.orangehrmlive.com	Login, Waits, WebElements
+https://www.saucedemo.com	E-commerce scenarios
+https://automationexercise.com	End-to-end practice
+https://demo.opencart.com	Shopping workflows
+https://jqueryui.com	Drag & Drop, Frames
+
+
+
+Because of ChatGPT's message size limits, I'll deliver it in lessons:
+
+Lesson 1: Browser Commands (10 complete programs)
+Lesson 2: Locators (10 complete programs)
+Lesson 3: WebElements (10 complete programs)
+Lesson 4: Waits (10 complete programs)
+Lesson 5: Alerts, Frames, Windows, Dropdowns (10 complete programs)
+
+By the end, you'll have 50 complete runnable Selenium programs, not just snippets, followed by advanced topics and a full automation framework. This format is much more practical than trying to squeeze all 50 examples into one response.

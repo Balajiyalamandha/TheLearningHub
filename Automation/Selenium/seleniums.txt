@@ -1,0 +1,35 @@
+By the end of the plan, you should be able to:
+
+✅ Write Java programs confidently
+✅ Automate web applications using Selenium WebDriver
+✅ Build a Page Object Model (POM) framework
+✅ Use TestNG effectively
+✅ Manage projects with Maven
+✅ Work with Git & GitHub
+✅ Set up Jenkins pipelines
+✅ Configure GitHub Actions for CI
+✅ Create reports with Extent Reports
+✅ Read test data from Excel
+✅ Handle dynamic web elements
+✅ Answer automation interview questions
+✅ Showcase a complete automation project on GitHub
+
+
+
+
+
+Open https://www.google.com and print the title.
+Open https://www.github.com and print the current URL.
+Open three websites using navigate().to().
+Maximize the browser, then print the window size.
+Set the browser size to 800 x 600.
+Open two browser windows and observe the behavior of close() versus quit().
+Print the page source length for any website.
+Print the browser window position.
+Navigate back and forward between three websites.
+Replace Thread.sleep() with proper waits later when you learn explicit waits.
+
+Use Explicit Wait for elements that load dynamically.
+Avoid excessive reliance on Implicit Wait.
+Create reusable wait helper methods (for example, waitForVisibility, waitForClickable) so your tests remain clean and maintainable.
+Since you're preparing for automation interviews, we'll also cover Fluent Wait, custom wait utilities, and how waits are implemented in Page Object Model (POM) frameworks—the patterns commonly used in production automation projects.
